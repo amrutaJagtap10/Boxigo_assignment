@@ -1,0 +1,261 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* font-family: sans-serif; */
+  font-family: 'Roboto';
+}
+.mainContainer{
+  padding: 6px 0px;
+  font-size: 15px;
+  overflow-x: hidden;
+}
+.mainContainer legend{
+  font-weight: 600;
+  padding-left: 11px;
+}
+
+
+
+.movesContainer {
+  width: 67rem;
+  height: 100px;
+  /* border: 1px solid #c3c3c3; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.movesContainer div {
+  width: 70px;
+  height: 70px;
+}
+
+svg{
+  color: orangered;
+}
+
+.movesDetails {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0 !important;
+}
+
+.movesDetails li {
+  margin-right: 20px;
+  display: flex;
+}
+
+.movesDetails button {
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.movesDetails li svg{
+  margin-right: 10px;
+  font-size: 20px;
+}
+.pencil svg{
+  color: black !important;
+  font-size: 17px !important;
+  margin-left: 13px;
+}
+.flexible svg{
+  font-size: 17px !important;
+}
+.flexible{
+  font-size: 13px;
+}
+
+.container{
+  margin-bottom: 13px;
+}
+
+.movesContainer {
+  /* width: 67rem; */
+  width: 85rem;
+  height: 100px;
+  /* border: 1px solid #c3c3c3; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0 10px; */
+}
+
+.movesContainer div {
+  /* width: auto; */
+  width: 346px;
+  height: auto;
+  /* flex: 1; */
+  /* text-align: center; */
+  /* white-space: nowrap;
+  overflow: hidden; */
+  text-overflow: ellipsis;
+  /* padding: 10px; */
+  font-weight: 600;
+}
+
+.movesContainer div p{
+  font-weight: 400;
+}
+
+.arrow{
+  width: 42px !important;
+  height: 42px !important;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: orangered;
+}
+.requestDiv p{
+  color: orangered;
+}
+
+.disclaimer{
+  display: flex;
+  margin-bottom: 16px;
+}
+.disclaimer span{
+  font-weight: 500;
+}
+
+.btnView{
+  margin-right: 6px;
+  color: orangered;
+  border: 2px solid orangered;
+  padding: 9px 24px;
+  cursor: pointer;
+  border-radius: 2px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.btnQuote{
+  background-color: orangered;
+  color: white;
+  border: 2px solid orangered;
+  padding: 9px 24px;
+  cursor: pointer;
+  border-radius: 2px;
+  border-radius: 4px;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+  /* border-left: 3px solid orangered; */
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  overflow: hidden;
+  overflow: scroll;
+    height: 600px;
+    overflow-x: hidden;
+
+}
+
+.listTable th,td{
+  padding: 20px;
+  /* border: 1px solid; */
+  /* border-collapse: collapse; */
+  width: 185px;
+  overflow: hidden;
+}
+
+.inventoryTitle{
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.houseContainer{
+  width: 67rem;
+  height: 71px;
+  /* border: 1px solid #c3c3c3; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0 10px; */
+}
+
+.houseContainer div {
+  width: auto;
+  /* flex: 1; */
+  /* text-align: center; */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* padding: 10px; */
+  font-weight: 600;
+}
+
+.houseContainer div p{
+  font-weight: 400;
+}
+
+.HouseDetails{
+  font-weight: 600;
+  margin-top: 20px;
+  /* margin-bottom: 20px; */
+}
+
+.HouseDetails span{
+  margin-left: 10px;
+  font-weight: 500;
+}
+.inventoryTitle span{
+  margin-left: 10px;
+  font-weight: 500;
+}
+.Additional_info{
+  margin-bottom: 20px;
+}
+
+.Additional_info h5{
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.old_house h4{
+  color: orangered;
+  margin-top: 17px;
+  font-size: 17px;
+}
+
+.new_house h4{
+  color: orangered;
+  margin-top: 17px;
+  font-size: 17px;
+}
+
+.accordion{
+  margin: 5px 0px;
+  padding: 13px;
+  border-radius: 6px;
+}
+
+.inventory_title_name{
+  line-height: 1;
+    margin-bottom: 0;
+}
+.inventory_title_name span{
+  float: right;
+  font-size: 24px;
+  
+}
